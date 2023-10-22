@@ -111,6 +111,22 @@ header {
     text-align: center;
 }
 
+@media (max-width: 768px) {
+    header {
+        background-image: url(../images/bg-header-mobile.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 500px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
 header i {
     color: var(--strong-cyan);
     font-size: 7rem;
